@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Atividade JS</title>
+</head>
+
+<body>
+    <header>
+        <h1>Atividade JS 1</h1>
+    
+        <div>
+            <h2>Praticar os conhecimentos sobre:</h2>
+            <ul>
+                <li>Tipos de saída</li>
+                <li>Declarações e sintaxe</li>
+                <li>Comentários</li>
+                <li>Variáveis</li>
+                <li>Operadores</li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <h2>Tipos de Saída</h2>
+
+        <div>
+            <h3>1 - O que é um tipo de saída em JavaScript?</h3>
+            <p>Um tipo de saída em JavaScript é uma forma de exibir informações para o usuário.</p>
+        </div>
+
+        <div>
+            <h3>2 - Cite e explique 3 tipos de saída diferentes em JS (por exemplo: console.log, alert, document.write)
+            </h3>
+
+            <h4><code>console.log()</code></h4>
+            <p> Exibe mensagens no console.</p>
+
+            <code>console.log("Olá, mundo!");</code>
+
+            <h4><code>alert()</code></h4>
+            <p>Mostra uma janela de alerta no navegador com uma mensagem.</p>
+
+            <code>alert("Olá, mundo!");</code>
+
+            <h4><code>document.write()</code></h4>
+            <p>Escreve uma mensagem diretamente na página HTML.</p>
+
+            <code>document.write("Olá, mundo!");</code>
+
+        </div>
+
+        <div>
+            <h3>3 - Crie um arquivo saida.js e exiba as seguintes mensagens:</h3>
+
+            <h4>“Olá, mundo!” no console.</h4>
+            <p>Abra o console para visualizar.</p>
+
+            <h4>Uma mensagem de alerta no navegador com seu nome.</h4>
+            <button onclick="mostrarNome()">Clique aqui para ver o alerta</button>
+
+            <h4>Uma mensagem na página HTML dizendo: "Você completou a Parte 1!"</h4>
+            <p id="mensagem"></p>
+        </div>
+
+        <h2>Declarações, Sintaxe e Comentários</h2>
+
+        <div>
+            <h3>1 - Explique o que significa uma declaração em JavaScript.</h3>
+            <p>Uma declaração em JavaScript é uma instrução que diz ao programa o que ele deve fazer. Pode ser usada
+                para criar variáveis, executar funções ou realizar operações.</p>
+        </div>
+
+        <div>
+            <h3>2 - Qual a importância dos comentários no código?</h3>
+            <p>Os comentários servem para explicar o código, tornando-o mais fácil de entender e manter.</p>
+        </div>
+
+        <div>
+            <h3>3 - Reescreva o código abaixo, adicionando comentários explicativos para cada linha: let idade = 25
+                console.log(idade)</h3>
+            <pre>
+
+    // Declara uma variável chamada idade e atribui o valor 25
+    let idade = 25;
+
+    // Exibe o valor da variável no console
+    console.log(idade);
+            </pre>
+        </div>
+
+        <div>
+            <h3>4 - Corrija os erros de sintaxe no trecho abaixo: let nome = "Ana console.log(nome</h3>
+            <pre>
+
+    let nome = "Ana";
+    console.log(nome);
+            </pre>
+        </div>
+
+        <h2>Variáveis</h2>
+
+        <div>
+            <h3>1 - Qual a diferença entre let, const e var?</h3>
+            <p><strong>let:</strong> usada para declarar variáveis que podem ter seu valor alterado depois.</p>
+            <p><strong>const:</strong> usada para declarar variáveis cujo valor não pode ser alterado depois de definido.
+            </p>
+            <p><strong>var:</strong> forma antiga de declarar variáveis em JavaScript. Ainda funciona, mas hoje é menos usada.</p>
+        </div>
+
+        <div>
+            <h3>2 - Quando usar cada uma dessas declarações?</h3>
+            <p>Use <strong>let</strong> quando precisar mudar o valor da variável.</p>
+            <p>Use <strong>const</strong> quando o valor não vai mudar.</p>
+            <p>Use <strong>var</strong> apenas em códigos antigos, para os novos utilize <strong>let</strong>.</p>
+        </div>
+
+        <div>
+            <h3>3 - Crie variáveis para armazenar:</h3>
+            <ul>
+                <li>Nome completo</li>
+                <li>Idade</li>
+                <li>Cidade onde mora</li>
+            </ul>
+        </div>
+
+        <div>
+            <h3>4 - Exiba todos os valores no console com mensagens claras, por exemplo: console.log("Nome:",
+                nomeCompleto);</h3>
+            <p>Abra o console para visualizar</p>
+        </div>
+
+        <h2>Operadores</h2>
+
+        <div>
+            <h3>1 - O que são operadores aritméticos? Dê 3 exemplos.</h3>
+            <p>Operadores aritméticos são símbolos usados para realizar cálculos matemáticos com valores numéricos.</p>
+            <p>Exemplos:</p>
+
+            <h4>Soma (+)</h4>
+            <code>let soma = 5 + 3; // Resultado: 8</code>
+
+            <h4>Subtração (-)</h4>
+            <code>let subtracao = 10 - 4; // Resultado: 6</code>
+
+            <h4>Multiplicação (*)</h4>
+            <code>let multiplicacao = 6 * 2; // Resultado: 12</code>
+            
+
+        </div>
+
+        <div>
+            <h3>2 - O que são operadores de comparação? Explique com exemplos.</h3>
+            <p>Operadores de comparação são usados para comparar dois valores e retornam um resultado booleano: <code>true</code> ou <code>false</code>.</p>
+            <p>Exemplos:</p>
+
+            <h4>Igual (==)</h4>
+            <code>console.log(5 == 5); // true</code>
+
+            <h4>Maior que (>)</h4>
+            <code>console.log(10 > 7); // true</code>
+
+            <h4>Menor igual que (<=)</h4>
+            <code>console.log(6 <= 1); // false</code>
+        </div>
+
+        <div>
+            <h3>3 - Usando variáveis numéricas, calcule e exiba:</h3>
+            <p>Soma, Subtração, Multiplicação Divisão</p>
+
+            <div>
+                <label for="n1">Informe o 1º número:</label>
+                <input type="number" name="n1" id="n1">
+            </div>
+            <div>
+                <label for="n2">Informe o 2º número:</label>
+                <input type="number" name="n2" id="n2">
+            </div>
+            <p id="resultado"></p>
+
+            <button class="btn-aritimetica" onclick="soma()">Somar</button>
+            <button class="btn-aritimetica" onclick="subtrai()">Subtrair</button>
+            <button class="btn-aritimetica" onclick="multiplica()">Multiplicar</button>
+            <button class="btn-aritimetica" onclick="dividi()">Dividir</button>
+            <button class="btn-aritimetica" onclick="restoDivisao()">Mostra resto da divisão</button>
+
+            <h3>4 - Compare duas variáveis e exiba no console se elas são iguais ou diferentes.</h3>
+            <div>
+                <label for="numero1">Informe o 1º número:</label>
+                <input type="number" name="numero1" id="numero1">
+            </div>
+            <div>
+                <label for="numero2">Informe o 2º número:</label>
+                <input type="number" name="numero2" id="numero2">
+            </div>
+            <button onclick="comparar()" class="btn">Comparar</button>
+            <p>Veja o resultado no console.</p>
+
+            <h3>5 - Use operadores lógicos para:</h3>
+            <div>
+                <label>O número <input type="number" name="numeroComparado1" id="numeroComparado1"> é maior que 10 e menor que 50</label>
+                <button onclick="maior10menor50()">Verificar</button>
+                <p id="resultadoComparacao1"></p>
+            </div>
+            <div>
+                <label>O número <input type="number" name="numeroComparado2" id="numeroComparado2"> é menor que 5 ou menor que 20</label>
+                <button onclick="menor5menor20()">Verificar</button>
+                <p id="resultadoComparacao2"></p>
+            </div>
+        </div>
+    </main>
+
+    <script src="js/saida.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/calculos.js"></script>
+</body>
+
+</html>
