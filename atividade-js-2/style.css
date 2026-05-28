@@ -1,0 +1,38 @@
+/* ESTILO */
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+main {
+    width: 100%;
+    max-width: 50em;
+    margin: 0 auto;
+    padding: 0 1em 2em;
+}
+
+button{
+    background-color: yellow;
+    font-weight: bold;
+    padding: 1em;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-bottom: 1.5em;
+}
+
+@media (max-width: 900px) {
+    header,
+    main {
+        width: 100%;
+        max-width: 100%;
+    }
+}
