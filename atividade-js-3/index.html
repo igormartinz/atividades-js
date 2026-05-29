@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Atividade JS</title>
+</head>
+
+<body>
+    <main>
+        <h1>Atividade 3 JS</h1>
+
+        <div>
+            <p>Exibir mensagem no console - Mostre no console: "Meu primeiro código em JavaScript".</p>
+            <p><strong>Visualize no console</strong></p>
+            <button onclick="exibirNoConsole()">Executar</button>
+        </div>
+
+        <div>
+            <p>Alert simples - Mostre um alerta com: "Seja bem-vindo ao JavaScript!".</p>
+            <button onclick="alertBemVindo()">Executar</button>
+        </div>
+
+        <div>
+            <p>Script no HTML - Crie uma página HTML que execute um console.log("Página carregada") quando abrir.</p>
+            <a href="pagina-carregada.html" style="margin-bottom: 1em; display: inline-block;">Ir para página</a>
+        </div>
+
+        <div>
+            <p>Mostre uma mensagem com alert() e outra no console com console.log().</p>
+            <p><strong>Visualize no console</strong></p>
+            <button onclick="alertEConsole()">Executar</button>
+        </div>
+
+        <div>
+            <p>Use document.write() para exibir "Olá, mundo!" na página.</p>
+            <script>
+                document.write('Olá, mundo!');
+            </script>
+        </div>
+
+        <div>
+            <p style="margin-top: 2em;">Mostre o resultado de 5 + 7 usando alert().</p>
+            <button onclick="soma5e7()">Executar</button>
+        </div>
+
+        <div>
+            <p>Crie um código que mostre no console: "Hoje é um ótimo dia para aprender JavaScript!".</p>
+            <p><strong>Visualize no console</strong></p>
+            <button onclick="exibirDiaOtimoParaJS()">Executar</button>
+        </div>
+
+        <div>
+            <p>Crie três instruções diferentes no mesmo código (declarar variável, fazer cálculo e exibir resultado).
+            </p>
+            <button onclick="calculoSimples()">Executar</button>
+        </div>
+
+        <div>
+            <p>Escreva um programa que mostre no console "Meu nome é [seu nome] e tenho [sua idade] anos".</p>
+            <p><strong>Visualize no console</strong></p>
+            <button onclick="exibiNomeEIdade()">Executar</button>
+        </div>
+
+        <div>
+            <p>Escreva um código que contenha um erro proposital de sintaxe, execute-o e corrija.</p>
+            <p style="margin-bottom: 2em;">Erro testado: consolE.log('Meu nome é Igor e tenho 20 anos')</p>
+        </div>
+
+        <div>
+            <p>Adicione comentários de linha única explicando duas partes do seu código.</p>
+        </div>
+
+        <div>
+            <p>Crie três variáveis: cidade, estado e pais e exiba no console: "Moro em [cidade] - [estado], [pais]".</p>
+            <p><strong>Visualize no console</strong></p>
+            <button onclick="exibiLocalizacao()">Executar</button>
+        </div>
+
+        <div>
+            <p>Declare uma variável idade e aumente o valor dela em 1, mostrando o resultado.</p>
+            <button onclick="aumentaIdade()">Executar</button>
+        </div>
+
+        <div>
+            <p>Troque os valores de duas variáveis entre si (ex.: a = 5 e b = 10).</p>
+            <button onclick="trocaVariaveis()">Executar</button>
+        </div>
+
+        <div>
+            <p>Use let para criar uma variável contador com valor 0 e incremente 3 vezes.</p>
+            <button onclick="incrementador()">Executar</button>
+        </div>
+
+        <div>
+            <p>Crie um programa que recebe dois números (prompt) e armazena-os em variáveis let, depois soma e exibe o
+                resultado.</p>
+            <button onclick="somaExibi()">Executar</button>
+        </div>
+
+        <div>
+            <p>Teste redeclarar uma variável criada com let e veja o que acontece.</p>
+            <button onclick="redeclaraVariavel()">Executar</button>
+        </div>
+
+        <div>
+            <p>Crie uma constante PI com 3.14159 e use-a para calcular a área de um círculo de raio 7.</p>
+            <button onclick="calculaAreaCirculo()">Executar</button>
+        </div>
+
+        <div>
+            <p>Crie uma constante NOME e exiba no console: "Bem-vindo, [NOME]!".</p>
+            <p><strong>Visualize no console</strong></p>
+            <button onclick="constanteNome()">Executar</button>
+        </div>
+        
+        <div>
+            <p>Teste tentar alterar o valor de uma constante e veja o erro.</p>
+            <p><strong>Visualize no console</strong></p>
+            <button onclick="alteraConstante()">Executar</button>
+        </div>
+        
+        <div>
+            <p>Receba dois números (prompt) e mostre:</p>
+            <p>o Soma o Subtração o Multiplicação o Divisão</p>
+            <p><strong>Visualize no console</strong></p>
+            <button onclick="calculaNumeros()">Executar</button>
+        </div>
+
+        <div>
+            <p>Calcule 10 % 3 e mostre o resultado no console.</p>
+            <button onclick="restoDe10Por3()">Executar</button>
+        </div>
+
+        <div>
+            <p>Teste a ordem das operações matemáticas: console.log(2 + 3 * 4).</p>
+            <p><strong>Visualize no console</strong></p>
+            <button onclick="testeOrdemPrecedencia()">Executar</button>
+        </div>
+
+        <div>
+            <p>Use operadores de atribuição (+=, -=, *=, /=) em uma variável let.</p>
+            <p><strong>Visualize no console</strong></p>
+            <button onclick="operadoresAtribuicao()">Executar</button>
+        </div>
+
+        <div>
+            <p>Calcule a média de três números digitados pelo usuário (prompt).</p>
+            <button onclick="calculaMedia()">Executar</button>
+        </div>
+
+        <div>
+            <p>Receba um número e exiba: o O dobro o O triplo o A metade</p>
+            <p><strong>Visualize no console</strong></p>
+            <button onclick="dobroTiploMetade()">Executar</button>
+        </div>
+
+        <div>
+            <p>Crie variáveis contendo: o String o Number o Boolean o Array o Object Mostre o tipo de cada uma com
+                typeof.</p>
+            <p><strong>Visualize no console</strong></p>
+            <button onclick="mostraTipo()">Executar</button>
+        </div>
+        
+        <div>
+            <p>Crie um objeto pessoa com nome e idade e exiba no console.</p>
+            <p><strong>Visualize no console</strong></p>
+            <button onclick="objetoPessoa()">Executar</button>
+        </div>
+
+        <div>
+            <p>Crie um array com 5 números e mostre o terceiro elemento.</p>
+            <button onclick="listaNumeros()">Executar</button>
+        </div>
+    </main>
+
+    <script src="funcoes.js"></script>
+</body>
+
+</html>
